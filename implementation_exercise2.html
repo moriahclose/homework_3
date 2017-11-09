@@ -1,0 +1,38 @@
+<!doctypehtml>
+<html>
+    <head>
+        <title>Calculator</title>
+        <script src="implementation_exercise2.js"></script>
+        <link rel = "stylesheet" href="implementation_exercise2.css"/>
+    </head>
+    <body>
+        <table>
+            <th colspan="4"><input id="calculationInput" type="text"/></th>
+            <tr>
+                <td><button id="button1" onclick="addChar(document.getElementById('button1'))">1</button></td>
+                <td><button id="button2" onclick="addChar(document.getElementById('button2'))">2</button></td>
+                <td><button id="button3" onclick="addChar(document.getElementById('button3'))">3</button></td>
+                <td><button id="divide" onclick="addChar(document.getElementById('divide'))">/</button></td>
+            </tr>
+            <tr>
+                <td><button id="button4" onclick="addChar(document.getElementById('button4'))">4</button></td>
+                <td><button id="button5" onclick="addChar(document.getElementById('button5'))">5</button></td>
+                <td><button id="button6" onclick="addChar(document.getElementById('button6'))">6</button></td>
+                <td><button id="multiply" onclick="addChar(document.getElementById('multiply'))">*</button></td>
+            </tr>
+            <tr>
+                <td><button id="button7" onclick="addChar(document.getElementById('button7'))">7</button></td>
+                <td><button id="button8" onclick="addChar(document.getElementById('button8'))">8</button></td>
+                <td><button id="button9" onclick="addChar(document.getElementById('button9'))">9</button></td>
+                <td><button id="subtract" onclick="addChar(document.getElementById('subtract'))">-</button></td>
+            </tr>
+            <tr>
+                <td><button id="button0" onclick="addChar(document.getElementById('button0'))">0</button></td>
+                <td><button id="decimal" onclick="addChar(document.getElementById('decimal'))">.</button></td>
+                <td><button id="equals" onclick="calculate()">=</button></td>
+                <td><button id="add" onclick="addChar(document.getElementById('add'))">+</button></td>
+            </tr>
+        </table>
+        <button id="clear" onclick="clearInput()">Clear</button>
+    </body>
+</html>

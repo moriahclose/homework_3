@@ -1,0 +1,42 @@
+body {
+    font-family: arial;
+    font-style: bold;
+    font-size: 50;
+    height: 100%;
+    width: 100%;
+    background-color: #82b74b;
+    color: white;
+}
+
+table {
+    font-size: 50;    
+    height: 100%;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 15%;
+    background-color:#405d27;
+}
+
+tr {
+    width: 100%;
+}
+
+#clear {
+    width: 50%;
+    margin-left: 25%;
+    background-color: #3e4444;
+}
+
+button {
+    background-color:#82b746 ;
+    color: white;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    height: 300%;
+    width: 100%;
+}
+
+#equals {
+    background-color: #3e4444;
+}

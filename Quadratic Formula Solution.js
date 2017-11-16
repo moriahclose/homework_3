@@ -22,3 +22,5 @@ if (a == 0) {
  }
    document.getElementById("output_text").innerHTML = outputText;
 }
+
+//used a youtube tutorial by Daily Rant Australia for help. https://youtu.be/ePQ5zq3HE4A

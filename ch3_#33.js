@@ -24,3 +24,5 @@ for (i = 0; i < 3; i++) {
               }
       }
       document.write("<br>");
+
+//got help from Kudvenkat https://youtu.be/2IcTWhNnRI8
